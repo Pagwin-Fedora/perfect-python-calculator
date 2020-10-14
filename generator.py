@@ -32,6 +32,6 @@ if x == {0} and y == {1} and operator == '{2}':
 
 
 print(
-    "print('what operator do you want to do?');\nops=['+','-','x','/']\noperator=None\nwhile not operator in ops:\n\toperator = input('+ - x /\\t')\nx=-1\nwhile not 0<=x<=199:\n\tx=int(input('what\\'s the first num you want to input?(0-200)'))\ny=-1\nwhile not 0<=y<=199:\n\ty=int(input('what\\'s the second num you want to input?(0-200)'))"
+    "print('what operator do you want to do?');\nops='+-x/'\noperator=None\nwhile not operator in ops:\n\toperator = input('+ - x /\\t')\nx=-1\nwhile not 0<=x<=199:\n\tx=int(input('what\\'s the first num you want to input?(0-200)'))\ny=-1\nwhile not 0<=y<=199:\n\ty=int(input('what\\'s the second num you want to input?(0-200)'))"
 )
 [*map(handler, combs)]
